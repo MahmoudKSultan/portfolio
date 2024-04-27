@@ -27,7 +27,7 @@ function Header() {
       className={navColour ? "sticky" : "navbar"}
     >
       <Navbar.Brand className="logotext" as={Link} to="/">
-        <div className="logo"></div>
+        <div className="logo">Mahmoud</div>
       </Navbar.Brand>
 
       <Navbar.Toggle
@@ -85,7 +85,7 @@ function Header() {
           <Button
             onClick={() => {
               window.open(
-                "https://drive.google.com/file/d/1zbrcyEPX5vpSL0JVXJb7x8CUZu089nYK/view?usp=sharing"
+                "https://drive.google.com/file/d/1_ewIGzuUkHw1nKik2aK1h9YGlwUeo1gv/view?usp=sharing"
               );
             }}
             className="resumebtn"

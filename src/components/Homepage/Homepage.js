@@ -5,8 +5,8 @@ import Text from '../Homepage/Text'
 import {
   AiFillGithub,
   AiOutlineTwitter,
-  AiFillInstagram,
 } from "react-icons/ai";
+import {RiWhatsappFill} from "react-icons/ri"
 import { FaLinkedinIn } from "react-icons/fa";
 
 function Home() {
@@ -16,25 +16,25 @@ function Home() {
         <Row>
           <Col md={7}>
             <h2 className='headtext'>Hello <span className='wave'>👋 </span></h2>
-            <h2 className='nametext'>I'm Rahul Vijay</h2>
+            <h2 className='nametext'>I'm Mahmoud Abu Sultan</h2>
             <span></span>
             <Text />
             <button onClick={() => {
-              window.open("https://github.com/rahulvijay81");
+              window.open("https://github.com/MahmoudKSultan");
             }}
               className='socailmediabtn'><AiFillGithub className='icon' /></button>
             <button onClick={() => {
-              window.open("https://www.linkedin.com/in/rahulvijay81/");
+              window.open("https://www.linkedin.com/in/mahmoudksultan/");
             }}
               className='socailmediabtn'><FaLinkedinIn className='icon' /></button>
-            <button onClick={() => {
-              window.open("https://twitter.com/rahulvijay8156");
+            {/* <button onClick={() => {
+              window.open("https://www.linkedin.com/in/mahmoudksultan/");
             }}
-              className='socailmediabtn'><AiOutlineTwitter className='icon' /></button>
+              className='socailmediabtn'><AiOutlineTwitter className='icon' /></button> */}
             <button onClick={() => {
-              window.open("https://instagram.com/rahulvijay81");
+              window.open("https://wa.me/+970595105833");
             }}
-              className='socailmediabtn'><AiFillInstagram className='icon' /></button>
+              className='socailmediabtn'><RiWhatsappFill className='icon' /></button>
           </Col>
 
           <Col md={5}>
