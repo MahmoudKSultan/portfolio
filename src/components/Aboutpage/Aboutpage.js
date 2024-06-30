@@ -38,11 +38,14 @@ function Aboutpage() {
 									<li>React-Bootsrap</li>
 									<li>Material-ui</li>
 									<li>Git/Github</li>
+									<li>CI/CD</li>
 								</Col>
 								<Col md={5}>
 									<li>Next Js</li>
 									<li>Typescript</li>
 									<li>Tailwindcss</li>
+									<li>Headless UI</li>
+									<li>Shadcn UI</li>
 									<li>SWR</li>
 								</Col>
 							</Row>

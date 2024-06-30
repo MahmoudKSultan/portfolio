@@ -4,7 +4,7 @@ import { Container, Row, Col } from 'react-bootstrap'
 import Text from '../Homepage/Text'
 import {
   AiFillGithub,
-  AiOutlineTwitter,
+  // AiOutlineTwitter,
 } from "react-icons/ai";
 import {RiWhatsappFill} from "react-icons/ri"
 import { FaLinkedinIn } from "react-icons/fa";

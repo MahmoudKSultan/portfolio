@@ -3,13 +3,14 @@ import "../../pages/style.css";
 import ProjectCard from "./ProjectCard";
 import { Container, Row, Col } from "react-bootstrap";
 import olivixImage from "../../Assets/olivix.png";
-import expiditionImage from "../../Assets/expidition.png";
+// import expiditionImage from "../../Assets/expidition.png";
 import freelancingImage from "../../Assets/freelancing.png";
 import karaImage from "../../Assets/rentkara.com_.png";
 import toxicImage from "../../Assets/toxic.png";
 import macroneImage from "../../Assets/macrone.png";
 import ketoImage from "../../Assets/keto.png";
 import cowayImage from "../../Assets/coway.png";
+import cargoImage from "../../Assets/cargo-website.png";
 
 function Projectlist() {
 	return (
@@ -17,13 +18,22 @@ function Projectlist() {
 			<Container fluid className="project-section">
 				<Container>
 					<Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-					<Col md={4} className="project-card">
+						<Col md={4} className="project-card">
 							<ProjectCard
 								imgPath={karaImage}
 								isBlog={false}
 								title="Kara Rent"
 								// description="User Admin Dashboard created with React js, Material UI, Nivo Charts, Formik, Yup, FullCalendar, and Data Grid to build this entire application. This application consists of Light and Dark Mode, four different Charts, three different Data Table Pages, FAQ Page, Form Page, and Calendar Integration."
 								ghLink="https://rentkara.com/"
+							/>
+						</Col>
+						<Col md={4} className="project-card">
+							<ProjectCard
+								imgPath={cargoImage}
+								isBlog={false}
+								title="Cargo Connect"
+								// description="User Admin Dashboard created with React js, Material UI, Nivo Charts, Formik, Yup, FullCalendar, and Data Grid to build this entire application. This application consists of Light and Dark Mode, four different Charts, three different Data Table Pages, FAQ Page, Form Page, and Calendar Integration."
+								ghLink="https://cargo-connect.org"
 							/>
 						</Col>
 						<Col md={4} className="project-card">
@@ -35,7 +45,7 @@ function Projectlist() {
 								ghLink="https://app.dakakeen.io/"
 							/>
 						</Col>
-{/* 
+						{/* 
 						<Col md={4} className="project-card">
 							<ProjectCard
 								imgPath={expiditionImage}
