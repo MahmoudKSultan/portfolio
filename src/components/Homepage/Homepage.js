@@ -32,7 +32,7 @@ function Home() {
             }}
               className='socailmediabtn'><AiOutlineTwitter className='icon' /></button> */}
             <button onClick={() => {
-              window.open("https://wa.me/+970595105833");
+              window.open("https://wa.me/+972595105833");
             }}
               className='socailmediabtn'><RiWhatsappFill className='icon' /></button>
           </Col>
